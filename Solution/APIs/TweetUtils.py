@@ -4,19 +4,15 @@ import json
 from Solution.Domain.Tweet import Tweet
 import preprocessor as p
 from langdetect import detect
+import Solution.config as config
 
 
 class TweetUtils:
     def __init__(self):
-        consumer_key = "NUvnXld1pc6D94DHbmyH7dYIT"
-        consumer_secret = "KEsrEHRKLgBkaYtC5x74IsxsGletm87oWm0BGJeOAXmS2l9qMW"
-        access_token = "2732573328-Eyo21C9tt7htcbLQqAbnmfcjCO6g3T0KGxJL8l5"
-        access_token_secret = "iHVkByWKxGCaxqXTrCnNgSZcheYtL6b3gsf0sc7eWBJiG"
-
-        self.api = twitter.api.Api(consumer_key=consumer_key,
-                              consumer_secret=consumer_secret,
-                              access_token_key=access_token,
-                              access_token_secret=access_token_secret,
+        self.api = twitter.api.Api(consumer_key=config.twitter_keys["consumer_key"],
+                                   consumer_secret=config.twitter_keys["consumer_secret"],
+                                   access_token_key=config.twitter_keys["access_token"],
+                                   access_token_secret=config.twitter_keys["access_token_secret"],
                                    tweet_mode="extended")
 
         p.set_options(p.OPT.URL, p.OPT.EMOJI, p.OPT.RESERVED, p.OPT.SMILEY, p.OPT.NUMBER)
@@ -51,7 +47,7 @@ class TweetUtils:
         if len(id_list) > 4000:
             while len(clean_tweets) < 500:
                 print(len(clean_tweets))
-                tweets = self.api.GetStatuses(id_list[k:k+2000])
+                tweets = self.api.GetStatuses(id_list[k:k + 2000])
                 k += 2001
                 clean_tweets += self.clean_api_tweet(tweets)
         else:
@@ -65,7 +61,7 @@ class TweetUtils:
     def get_tweets_for_date(self, folder, date, output_file_path):
         print(date)
         if not os.path.exists(output_file_path):
-            output_json = {"tweets":[]}
+            output_json = {"tweets": []}
         else:
             output_file_read = open(output_file_path, "r+")
             output_json = json.loads(output_file_read.read())
