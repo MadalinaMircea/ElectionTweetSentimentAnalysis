@@ -1,0 +1,44 @@
+Object
+	RealObject
+		LivingEntity
+			Human
+				Candidate
+					Trump = trump, realdonaldtrump, donald
+					Biden = biden, joebiden, joe, bidens, bidenharris
+				Voter = people, supporter, voter
+				Position = president, potus
+				Pronoun
+					First = I, me, im, I'm
+					Second = u, you, yours, youre, you're, your
+					Third = he, his
+				OtherHuman = man, guy, woman, anyone, everyone
+		InanimateEntity = video, ballot, thing, poll, money, house, office
+	AbstractObject
+		SocialMedia = twitter, youtube
+		Notion = fact, end, story, court, job, tax, business, life, family, god, truth, point, case
+		Action
+			Vote = vote, voting, voted
+			Like = like, want, win, love, support
+			Dislike = hate
+			OtherAction = find, pay, live, may, drop, saying, call, change, getting, read, put, mean, thank, made, hope, give, help, work, get, please, mail, plan, know, watch, show, come, believe, let, got, keep, could, would, say, think, make, need, go, see, going, lie, care, take, said, look
+		Adjective
+			Patriotic = american
+			Positive = well, good, great, big, better, best, true
+			Negative = fake, corrupt, shit, bad, racist, criminal
+			OtherAdjective = new, done, black, white, real, away
+		Event = election, rally, campaign, death
+		Negation = isnt, dont, nothing, stop, wont, cant, doesnt, never, didnt
+		Number = one, many, million
+		Crisis = covid, corruption, pandemic, virus
+		Time = time, day, year, today, week, early, yet, since, always
+		Country
+			Patriotic = america, state, country
+			OtherCountry = china, world
+		Others = lol, actually, oh, next, already, something, another, yes, also, even, last, via, medium, every, still, thats, that's, way, back, really, much
+		PoliticalParty
+			Republican = republican, gop, right, maga, administration
+			Democratic = democrat, left
+		PoliticalFigure
+			Republican = kayleighmcenany, tucker, tuckercarlson
+			Democrat = obama, hunter, bobulinski, kamalaharris, harris, kamala
+		News = news, cnn, foxnews

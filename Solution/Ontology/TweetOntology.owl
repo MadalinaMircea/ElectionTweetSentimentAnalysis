@@ -1,0 +1,1030 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mirce/ontologies/2021/0/untitled-ontology-16"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mirce/ontologies/2021/0/untitled-ontology-16">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Abstract_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biden"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Candidate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crisis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Democratic_Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#First"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inanimate_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Living_Entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Number"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Adjective"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patriotic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patriotic_Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Political_Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Position"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#President"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pronoun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Real_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Republican_Party"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Second"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Third"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#administration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#always"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#america"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#american"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anyone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#away"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ballot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#best"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#better"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#biden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bidenharris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bidens"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#big"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#business"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#campaign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#case"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#china"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#corruption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#court"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#covid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#criminal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#death"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#democrat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#didnt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#doesnt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#donald"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#done"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#early"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#election"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#end"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#everyone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fact"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fake"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#family"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#god"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#great"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#guy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#he"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#his"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#house"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#im"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#isnt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#job"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joebiden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#left"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#life"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#maga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#man"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#many"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#me"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#million"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#money"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#never"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#new"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nothing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#office"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pandemic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#people"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#point"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#poll"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#potus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#president"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#racist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#real"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#realdonaldtrump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#republican"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#since"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#state"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#story"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#supporter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tax"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#today"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#trump"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#truth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#twitter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#virus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#voter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#week"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#well"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#woman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#world"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#your"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#youre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yours"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#youtube"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abstract_Object"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adjective"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biden"/>
+        <Class IRI="#Candidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Candidate"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Country"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crisis"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Democratic_Party"/>
+        <Class IRI="#Political_Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#First"/>
+        <Class IRI="#Pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Living_Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inanimate_Entity"/>
+        <Class IRI="#Real_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Living_Entity"/>
+        <Class IRI="#Real_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negation"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="#Adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notion"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Number"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Adjective"/>
+        <Class IRI="#Adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Country"/>
+        <Class IRI="#Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Other_Human"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patriotic"/>
+        <Class IRI="#Adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patriotic_Country"/>
+        <Class IRI="#Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Political_Party"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Position"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="#Adjective"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#President"/>
+        <Class IRI="#Position"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pronoun"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Real_Object"/>
+        <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Republican_Party"/>
+        <Class IRI="#Political_Party"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Second"/>
+        <Class IRI="#Pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Media"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Third"/>
+        <Class IRI="#Pronoun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#Abstract_Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trump"/>
+        <Class IRI="#Candidate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voter"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Republican_Party"/>
+        <NamedIndividual IRI="#administration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#always"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patriotic_Country"/>
+        <NamedIndividual IRI="#america"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patriotic"/>
+        <NamedIndividual IRI="#american"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Human"/>
+        <NamedIndividual IRI="#anyone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#away"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative"/>
+        <NamedIndividual IRI="#bad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#ballot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#best"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#better"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biden"/>
+        <NamedIndividual IRI="#biden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biden"/>
+        <NamedIndividual IRI="#bidenharris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biden"/>
+        <NamedIndividual IRI="#bidens"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#big"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#business"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#campaign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#cant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#case"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Country"/>
+        <NamedIndividual IRI="#china"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crisis"/>
+        <NamedIndividual IRI="#corruption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patriotic_Country"/>
+        <NamedIndividual IRI="#country"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#court"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crisis"/>
+        <NamedIndividual IRI="#covid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative"/>
+        <NamedIndividual IRI="#criminal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#death"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democratic_Party"/>
+        <NamedIndividual IRI="#democrat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#didnt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#doesnt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trump"/>
+        <NamedIndividual IRI="#donald"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#done"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#dont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#early"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#election"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#end"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Human"/>
+        <NamedIndividual IRI="#everyone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#fact"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative"/>
+        <NamedIndividual IRI="#fake"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#family"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#god"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican_Party"/>
+        <NamedIndividual IRI="#gop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#great"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Human"/>
+        <NamedIndividual IRI="#guy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Third"/>
+        <NamedIndividual IRI="#he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Third"/>
+        <NamedIndividual IRI="#his"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#house"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First"/>
+        <NamedIndividual IRI="#i"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First"/>
+        <NamedIndividual IRI="#im"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#isnt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#job"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biden"/>
+        <NamedIndividual IRI="#joe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Biden"/>
+        <NamedIndividual IRI="#joebiden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democratic_Party"/>
+        <NamedIndividual IRI="#left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#life"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican_Party"/>
+        <NamedIndividual IRI="#maga"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Human"/>
+        <NamedIndividual IRI="#man"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#many"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#First"/>
+        <NamedIndividual IRI="#me"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#million"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#money"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#never"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#new"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#nothing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#office"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Number"/>
+        <NamedIndividual IRI="#one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crisis"/>
+        <NamedIndividual IRI="#pandemic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voter"/>
+        <NamedIndividual IRI="#people"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#point"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#poll"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#President"/>
+        <NamedIndividual IRI="#potus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#President"/>
+        <NamedIndividual IRI="#president"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative"/>
+        <NamedIndividual IRI="#racist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Event"/>
+        <NamedIndividual IRI="#rally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#real"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trump"/>
+        <NamedIndividual IRI="#realdonaldtrump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican_Party"/>
+        <NamedIndividual IRI="#republican"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican_Party"/>
+        <NamedIndividual IRI="#right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negative"/>
+        <NamedIndividual IRI="#shit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#since"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Patriotic_Country"/>
+        <NamedIndividual IRI="#state"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#stop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#story"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voter"/>
+        <NamedIndividual IRI="#supporter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#tax"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#thing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#today"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trump"/>
+        <NamedIndividual IRI="#trump"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Notion"/>
+        <NamedIndividual IRI="#truth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Media"/>
+        <NamedIndividual IRI="#twitter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Second"/>
+        <NamedIndividual IRI="#u"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inanimate_Entity"/>
+        <NamedIndividual IRI="#video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Crisis"/>
+        <NamedIndividual IRI="#virus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Voter"/>
+        <NamedIndividual IRI="#voter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#week"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Positive"/>
+        <NamedIndividual IRI="#well"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Adjective"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Human"/>
+        <NamedIndividual IRI="#woman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Negation"/>
+        <NamedIndividual IRI="#wont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Other_Country"/>
+        <NamedIndividual IRI="#world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Time"/>
+        <NamedIndividual IRI="#yet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Second"/>
+        <NamedIndividual IRI="#you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Second"/>
+        <NamedIndividual IRI="#your"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Second"/>
+        <NamedIndividual IRI="#youre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Second"/>
+        <NamedIndividual IRI="#yours"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Media"/>
+        <NamedIndividual IRI="#youtube"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
