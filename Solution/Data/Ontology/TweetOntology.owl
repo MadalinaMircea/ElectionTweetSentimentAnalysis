@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/mirce/ontologies/2021/0/untitled-ontology-16">
+    <Prefix name="" IRI="http://www.semanticweb.org/mirce/ontologies/2021/0/untitled-ontology-16"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -28,6 +29,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Crisis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Democrat"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Democratic_Party"/>
@@ -78,6 +82,9 @@
         <Class IRI="#Patriotic_Country"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Political_Figure"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Political_Party"/>
     </Declaration>
     <Declaration>
@@ -94,6 +101,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Real_Object"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Republican"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Republican_Party"/>
@@ -160,6 +170,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#black"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bobulinski"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#business"/>
@@ -252,6 +265,9 @@
         <NamedIndividual IRI="#guy"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#harris"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#he"/>
     </Declaration>
     <Declaration>
@@ -259,6 +275,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#house"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hunter"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#i"/>
@@ -277,6 +296,15 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#joebiden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kamala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kamalaharris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kayleighmcenany"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#left"/>
@@ -310,6 +338,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#nothing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#obama"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#office"/>
@@ -391,6 +422,12 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#truth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tucker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tuckercarlson"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#twitter"/>
@@ -471,6 +508,10 @@
         <Class IRI="#Abstract_Object"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Democrat"/>
+        <Class IRI="#Political_Figure"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Democratic_Party"/>
         <Class IRI="#Political_Party"/>
     </SubClassOf>
@@ -531,6 +572,10 @@
         <Class IRI="#Country"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Political_Figure"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Political_Party"/>
         <Class IRI="#Abstract_Object"/>
     </SubClassOf>
@@ -553,6 +598,10 @@
     <SubClassOf>
         <Class IRI="#Real_Object"/>
         <Class IRI="#Object"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Republican"/>
+        <Class IRI="#Political_Figure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Republican_Party"/>
@@ -763,6 +812,10 @@
         <NamedIndividual IRI="#guy"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Democrat"/>
+        <NamedIndividual IRI="#harris"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Third"/>
         <NamedIndividual IRI="#he"/>
     </ClassAssertion>
@@ -773,6 +826,10 @@
     <ClassAssertion>
         <Class IRI="#Inanimate_Entity"/>
         <NamedIndividual IRI="#house"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democrat"/>
+        <NamedIndividual IRI="#hunter"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#First"/>
@@ -797,6 +854,18 @@
     <ClassAssertion>
         <Class IRI="#Biden"/>
         <NamedIndividual IRI="#joebiden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democrat"/>
+        <NamedIndividual IRI="#kamala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democrat"/>
+        <NamedIndividual IRI="#kamalaharris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican"/>
+        <NamedIndividual IRI="#kayleighmcenany"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Democratic_Party"/>
@@ -841,6 +910,10 @@
     <ClassAssertion>
         <Class IRI="#Negation"/>
         <NamedIndividual IRI="#nothing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Democrat"/>
+        <NamedIndividual IRI="#obama"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Inanimate_Entity"/>
@@ -949,6 +1022,14 @@
     <ClassAssertion>
         <Class IRI="#Notion"/>
         <NamedIndividual IRI="#truth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican"/>
+        <NamedIndividual IRI="#tucker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Republican"/>
+        <NamedIndividual IRI="#tuckercarlson"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Social_Media"/>

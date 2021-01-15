@@ -16,3 +16,9 @@ class TokenizedTweet:
 
     def __eq__(self, other):
         return self.__class__ == other.__class__ and self.__id == other.get_id()
+
+    def get_tokens(self):
+        return self.__tokens
+
+    def set_tokens(self, tokens):
+        self.__tokens = tokens

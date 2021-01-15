@@ -7,7 +7,7 @@ class Ontology:
         self.__ontology = get_ontology(data_source)
         self.__ontology.load()
 
-    def get_token_entity(self, token):
+    def label(self, token):
         for onto_class in self.__ontology.classes():
             if len(onto_class.descendants()) == 1:
                 if token in [class_indiv.name for class_indiv in onto_class.instances()]:

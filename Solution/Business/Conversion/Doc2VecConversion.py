@@ -27,5 +27,8 @@ class Doc2VecConversion:
 
         return self.__model
 
-    def get_vec(self, tokens):
-        return self.get_model().infer_vector(tokens)
+    def get_vec(self, tokenized):
+        tokens = tokenized.get_tokens()
+        converted = self.get_model().infer_vector(tokens).tolist()
+        tokenized.set_tokens(converted)
+        return tokenized
